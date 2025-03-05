@@ -1,0 +1,16 @@
+<?php
+
+namespace DummyNamespace;
+
+class DummyClass
+{
+    /**
+     * Create a new domain event instance.
+     *
+     * Add any properties you need, e.g. public $order or $user.
+     */
+    public function __construct()
+    {
+        // ...
+    }
+}

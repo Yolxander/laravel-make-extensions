@@ -1,0 +1,22 @@
+<?php
+
+namespace DummyNamespace;
+
+use Illuminate\Support\Facades\Http;
+
+class DummyClass
+{
+    /**
+     * Example method to send a request to an external API.
+     *
+     * @param  array  $payload
+     * @return array|null
+     */
+    public function send(array $payload)
+    {
+        // Example HTTP call
+        $response = Http::post('https://api.example.com/endpoint', $payload);
+
+        return $response->json();
+    }
+}

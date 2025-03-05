@@ -1,0 +1,22 @@
+{
+  "name": "yolxitron/laravel-make-extensions",
+  "description": "Custom Laravel Artisan make commands",
+  "type": "library",
+  "require": {
+    "php": ">=8.0",
+    "illuminate/support": "^10.0",
+    "illuminate/console": "^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Yolxitron\\MakeExtensions\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Yolxitron\\MakeExtensions\\Providers\\MakeExtensionsServiceProvider"
+      ]
+    }
+  }
+}

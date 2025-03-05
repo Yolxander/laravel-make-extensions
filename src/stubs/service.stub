@@ -1,0 +1,14 @@
+<?php
+
+namespace DummyNamespace;
+
+class DummyClass
+{
+    /**
+     * Example method to handle some business logic.
+     */
+    public function handle()
+    {
+        // ...
+    }
+}

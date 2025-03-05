@@ -1,0 +1,17 @@
+<?php
+
+namespace DummyNamespace;
+
+class DummyClass
+{
+    /**
+     * Execute the action (use case).
+     *
+     * @param  mixed  $payload
+     * @return mixed
+     */
+    public function execute($payload)
+    {
+        // ...
+    }
+}

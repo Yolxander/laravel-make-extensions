@@ -1,0 +1,25 @@
+<?php
+
+namespace DummyNamespace;
+
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+
+class DummyClass extends TestCase
+{
+    // If you need to refresh the database for each test, uncomment:
+    // use RefreshDatabase;
+
+    /**
+     * A basic API test example.
+     */
+    public function test_example_endpoint()
+    {
+        $response = $this->getJson('/api/example');
+
+        $response->assertStatus(200)
+                 ->assertJsonStructure([
+                     'data',
+                 ]);
+    }
+}

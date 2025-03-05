@@ -1,0 +1,38 @@
+<?php
+
+namespace DummyNamespace;
+
+class DummyClass
+{
+    /**
+     * Example property representing the value.
+     */
+    protected $value;
+
+    /**
+     * Create a new value object instance.
+     *
+     * @param  mixed  $value
+     * @return void
+     */
+    public function __construct($value)
+    {
+        // Validate or normalize $value as needed...
+        $this->value = $value;
+    }
+
+    /**
+     * Example getter to retrieve the underlying value.
+     *
+     * @return mixed
+     */
+    public function getValue()
+    {
+        return $this->value;
+    }
+
+    /**
+     * Optionally add custom validation, formatting, or logic
+     * to ensure this Value Object remains valid.
+     */
+}

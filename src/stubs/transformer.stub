@@ -1,0 +1,19 @@
+<?php
+
+namespace DummyNamespace;
+
+class DummyClass
+{
+    /**
+     * Transform the given data into a consistent API response format.
+     *
+     * @param  mixed  $data
+     * @return array
+     */
+    public function transform($data)
+    {
+        return [
+            // ...
+        ];
+    }
+}
