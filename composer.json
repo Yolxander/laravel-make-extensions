@@ -1,5 +1,5 @@
 {
-  "name": "yolxitron/laravel-make-extensions",
+  "name": "yolxander/laravel-make-extensions",
   "description": "Custom Laravel Artisan make commands",
   "type": "library",
   "require": {
