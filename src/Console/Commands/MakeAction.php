@@ -15,7 +15,7 @@ class MakeAction extends GeneratorCommand
 
   protected function getStub()
   {
-    return __DIR__ . '/../../action.stub';
+    return __DIR__ . '/../../stubs/action.stub';
   }
 
   protected function getDefaultNamespace($rootNamespace)

@@ -15,7 +15,7 @@ class MakeApiClient extends GeneratorCommand
 
   protected function getStub()
   {
-    return __DIR__ . '/../../api-client.stub';
+    return __DIR__ . '/../../stubs/api-client.stub';
   }
 
   protected function getDefaultNamespace($rootNamespace)

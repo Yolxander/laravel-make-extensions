@@ -31,7 +31,7 @@ class MakeTransformer extends GeneratorCommand
     // return base_path('stubs/make-extensions/transformer.stub');
 
     // Otherwise, reference stubs directly in your package:
-    return __DIR__ . '/../../transformer.stub';
+    return __DIR__ . '/../../stubs/transformer.stub';
   }
 
   /**

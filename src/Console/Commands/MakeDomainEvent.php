@@ -15,7 +15,7 @@ class MakeDomainEvent extends GeneratorCommand
 
   protected function getStub()
   {
-    return __DIR__ . '/../../domain-event.stub';
+    return __DIR__ . '/../../stubs/domain-event.stub';
   }
 
   protected function getDefaultNamespace($rootNamespace)

@@ -43,7 +43,7 @@ class MakeExtensionsServiceProvider extends ServiceProvider
 
       // (Optional) Publish your stubs so they can be customized per-project.
       $this->publishes([
-        __DIR__ . '/../../stubs' => base_path('stubs/make-extensions'),
+        __DIR__ . '/../../stubs/stubs' => base_path('stubs/make-extensions'),
       ], 'make-extensions-stubs');
     }
   }

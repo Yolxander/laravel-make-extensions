@@ -15,7 +15,7 @@ class MakeValueObject extends GeneratorCommand
 
   protected function getStub()
   {
-    return __DIR__ . '/../../value-object.stub';
+    return __DIR__ . '/../../stubs/value-object.stub';
   }
 
   protected function getDefaultNamespace($rootNamespace)

@@ -15,7 +15,7 @@ class MakeApiTest extends GeneratorCommand
 
   protected function getStub()
   {
-    return __DIR__ . '/../../api-test.stub';
+    return __DIR__ . '/../../stubs/api-test.stub';
   }
 
   /**
