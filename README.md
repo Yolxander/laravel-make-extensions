@@ -1,7 +1,3 @@
-Below is an example **README.md** you can include in your **GitHub repository** (or any code host) for the **yolxander/laravel-make-extensions** package. Feel free to modify the text, formatting, or sections to match your project’s style.
-
----
-
 # Yolxander Laravel Make Extensions
 
 **Yolxander Laravel Make Extensions** is a Composer package that adds custom `php artisan make:*` commands for scaffolding additional file types commonly used in modern Laravel applications. It provides generators for Transformers, API Clients, Integration/API Tests, Domain Events, Value Objects, Services, and Actions, making it easier to maintain a clean project structure.
